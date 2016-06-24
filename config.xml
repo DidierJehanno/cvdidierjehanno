@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.jehannodidier.cvdidierjehanno" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CV - Didier Jehanno</name>
+    <description>
+       Curriculum vitae - Didier Jehanno
+    </description>
+    <author email="d.jehanno@gmail.com" href="http://cordova.io">
+       Didier Jehanno
+    </author>
+    <content src="index.html" />
+<preference name="ShowTitle" value="true"/>
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="www/img/logo.png" density="ldpi" />
+        <icon src="www/img/logo.png" density="mdpi" />
+        <icon src="www/img/logo.png" density="hdpi" />
+        <icon src="www/img/logo.png" density="xhdpi" />		
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
